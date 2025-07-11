@@ -32,22 +32,32 @@ This quickstart will guide you to:
 
 ---
 
-## 🛠️ 3. Set Up Your Project
+### 📁 Create project folder
 
 ```bash
-# Create project folder
-mkdir recall-quickstart && cd recall-quickstart
+mkdir recall-quickstart
 
-# Create virtual environment
-python -m venv .venv && source .venv/bin/activate
+cd recall-quickstart
 
-# Install dependencies
+
+🐍 Create virtual environment
+
+python -m venv .venv
+
+source .venv/bin/activate
+
+📦 Install dependencies
+ 
 pip install requests python-dotenv
 
-Create .env file in project root:
+
+🔐 Create .env file
+
 RECALL_API_KEY=pk_live_your_key_here
 
-Create .gitignore file:
+
+🛡️ Create .gitignore file
+
 .env
 __pycache__/
 .venv/
@@ -98,12 +108,13 @@ if __name__ == "__main__":
     while True:
         trade_once()
         time.sleep(10)
-```markdown
-### ▶️ Run bot:
 
-```bash
+
+▶️ Run bot:
+
 python trading_loop_bot.py
-```
-```
+
+
+
 
 
