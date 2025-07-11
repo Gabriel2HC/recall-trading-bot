@@ -34,7 +34,7 @@ This quickstart will guide you to:
 
 ### 📁 Create project folder
 ```markdown
-```bash
+
 mkdir recall-quickstart
 ```
 ```bash
