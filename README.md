@@ -33,37 +33,49 @@ This quickstart will guide you to:
 ---
 
 ### 📁 Create project folder
-
+```markdown
 ```bash
 mkdir recall-quickstart
 
+```bash
 cd recall-quickstart
 
 
 🐍 Create virtual environment
-
+```bash
 python -m venv .venv
-
+```bash
 source .venv/bin/activate
 
 📦 Install dependencies
- 
+ ```bash
 pip install requests python-dotenv
 
 
 🔐 Create .env file
+```bash
+nano .env
 
+```bash
 RECALL_API_KEY=pk_live_your_key_here
 
 
 🛡️ Create .gitignore file
+```bash
+nano .gitignore
 
+```bash
 .env
 __pycache__/
 .venv/
 
 ✅ File trading_loop_bot.py
+```bash
+nano trading_loop_bot.py
 
+
+
+```bash
 import os
 import time
 import requests
@@ -111,7 +123,7 @@ if __name__ == "__main__":
 
 
 ▶️ Run bot:
-
+```bash
 python trading_loop_bot.py
 
 
