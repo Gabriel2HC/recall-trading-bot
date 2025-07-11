@@ -98,9 +98,12 @@ if __name__ == "__main__":
     while True:
         trade_once()
         time.sleep(10)
+```markdown
+### ▶️ Run bot:
 
-✅ Run bot:
 ```bash
 python trading_loop_bot.py
+```
+```
 
 
