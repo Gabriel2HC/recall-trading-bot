@@ -36,42 +36,51 @@ This quickstart will guide you to:
 ```markdown
 ```bash
 mkdir recall-quickstart
-
+```
 ```bash
 cd recall-quickstart
-
+```
 
 🐍 Create virtual environment
 ```bash
 python -m venv .venv
+```
 ```bash
 source .venv/bin/activate
+```
 
 📦 Install dependencies
  ```bash
 pip install requests python-dotenv
+```
 
 
 🔐 Create .env file
 ```bash
 nano .env
+```
 
 ```bash
 RECALL_API_KEY=pk_live_your_key_here
+```
+Ctrl + O save 
+Ctrl + X quit
 
 
 🛡️ Create .gitignore file
 ```bash
 nano .gitignore
+```
 
 ```bash
 .env
 __pycache__/
 .venv/
-
+```
 ✅ File trading_loop_bot.py
 ```bash
 nano trading_loop_bot.py
+```
 
 
 
@@ -120,11 +129,14 @@ if __name__ == "__main__":
     while True:
         trade_once()
         time.sleep(10)
-
+```
+Ctrl + O save 
+Ctrl + X quit
 
 ▶️ Run bot:
 ```bash
 python trading_loop_bot.py
+```
 
 
 
