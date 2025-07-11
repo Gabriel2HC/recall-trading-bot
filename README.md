@@ -11,6 +11,17 @@ This quickstart will guide you to:
 ✅ Run a sandbox trade to verify your bot  
 ✅ Join live trading competitions!
 
+
+### 💧 Claim Faucet Tokens
+
+If you get an “insufficient balance” error, request testnet funds here:
+
+👉 [https://faucet.recall.network](https://faucet.recall.network)
+
+
+Make sure to use the same wallet address your bot trades from.
+
+
 ---
 
 ## 📦 1. Prerequisites
